@@ -1,7 +1,7 @@
 # V2RayAggregator
 
 
-[![Collect](https://github.com/mahdibland/SSAggregator/actions/workflows/Collector.yml/badge.svg)](https://github.com/mahdibland/SSAggregator/actions/workflows/Collector.yml) [![Airport Collect](https://github.com/mahdibland/SSAggregator/actions/workflows/Airport_Collector.yml/badge.svg)](https://github.com/mahdibland/SSAggregator/actions/workflows/Airport_Collector.yml)
+[![Collect](https://github.com/OscarBal2468/V2RayAggregator/actions/workflows/Collector.yml/badge.svg)](https://github.com/OscarBal2468/V2RayAggregator/actions/workflows/Collector.yml) [![Airport Collect](https://github.com/OscarBal2468/V2RayAggregator/actions/workflows/Airport_Collector.yml/badge.svg)](https://github.com/OscarBal2468/V2RayAggregator/actions/workflows/Airport_Collector.yml)
 
 ## Quick Note & Updates
 🔴 ~~This project is still under maintance. so don't use it until further announcement cause there is a chance you will get errors while updating the nodes, etc.~~  
@@ -61,14 +61,14 @@ The speed measurement function is implemented in the `GitHub Actions` environmen
 Nodes filtered using speedtest measurement will be stored in following files:  
 
 * Group 1 (Contains free public nodes)
-- [Base64](https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity)
-- [Mixed](https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity.txt)
-- [Clash](https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity.yml)
+- [Base64](https://raw.githubusercontent.com/OscarBal2468/V2RayAggregator/master/Eternity)
+- [Mixed](https://raw.githubusercontent.com/OscarBal2468/V2RayAggregator/master/Eternity.txt)
+- [Clash](https://raw.githubusercontent.com/OscarBal2468/V2RayAggregator/master/Eternity.yml)
 
 * Group 2 (Contains only free airports)
-- [Base64](https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/EternityAir)
-- [Mixed](https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/EternityAir.txt)
-- [Clash](https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/EternityAir.yml)
+- [Base64](https://raw.githubusercontent.com/OscarBal2468/V2RayAggregator/master/EternityAir)
+- [Mixed](https://raw.githubusercontent.com/OscarBal2468/V2RayAggregator/master/EternityAir.txt)
+- [Clash](https://raw.githubusercontent.com/OscarBal2468/V2RayAggregator/master/EternityAir.yml)
 
 ### For Local Testing (all nodes)
 > Only for local testing because the number of nodes is too high and your client will crash if you import them  
@@ -76,14 +76,14 @@ Nodes filtered using speedtest measurement will be stored in following files:
 All of the nodes merged together will be stored in following files:  
 
 * Group 1 (Contains free public nodes)
-- [Base64](https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge_base64.txt)
-- [Mixed](https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge.txt)
-- [Clash](https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge_yaml.yml)
+- [Base64](https://raw.githubusercontent.com/OscarBal2468/V2RayAggregator/master/sub/sub_merge_base64.txt)
+- [Mixed](https://raw.githubusercontent.com/OscarBal2468/V2RayAggregator/master/sub/sub_merge.txt)
+- [Clash](https://raw.githubusercontent.com/OscarBal2468/V2RayAggregator/master/sub/sub_merge_yaml.yml)
 
 * Group 2 (Contains only free airports)
-- [Base64](https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/airport_merge_base64.txt)
-- [Mixed](https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/airport_sub_merge.txt)
-- [Clash](https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/airport_merge_yaml.yml)
+- [Base64](https://raw.githubusercontent.com/OscarBal2468/V2RayAggregator/master/sub/airport_merge_base64.txt)
+- [Mixed](https://raw.githubusercontent.com/OscarBal2468/V2RayAggregator/master/sub/airport_sub_merge.txt)
+- [Clash](https://raw.githubusercontent.com/OscarBal2468/V2RayAggregator/master/sub/airport_merge_yaml.yml)
 
 ### Manual Subs Conversion
 - If your client does not support the formats that provided here use below services to convert them to your client format (like surfboard)
@@ -98,9 +98,9 @@ https://pub-api-1.bianyuan.xyz/sub?target=(OutputFormat)&url=(SubUrl)&insert=fal
 
 For Example:
 (OutputFormat) = clash
-(SubUrl) = https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity.yml
+(SubUrl) = https://raw.githubusercontent.com/OscarBal2468/V2RayAggregator/master/Eternity.yml
 
-https://pub-api-1.bianyuan.xyz/sub?target=clash&url=https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity.yml&insert=false
+https://pub-api-1.bianyuan.xyz/sub?target=clash&url=https://raw.githubusercontent.com/OscarBal2468/V2RayAggregator/master/Eternity.yml&insert=false
 
 Now you can use the link above to import the subs into your client
 ```
@@ -522,30 +522,30 @@ high-speed node quantity: `200`
 
 ### all nodes
 merge nodes w/o dup: `4581`
-- [Node link Mixed (V2ray)](https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/sub/sub_merge.txt)
-- [Node link Yaml (Clash)](https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge_yaml.yml)
+- [Node link Mixed (V2ray)](https://raw.githubusercontent.com/OscarBal2468/V2RayAggregator/master/sub/sub_merge.txt)
+- [Node link Yaml (Clash)](https://raw.githubusercontent.com/OscarBal2468/V2RayAggregator/master/sub/sub_merge_yaml.yml)
 
 #### all nodes separated by protoctol
-- [VMESS](https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/sub/splitted/vmess.txt)
-- [TROJAN](https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/sub/splitted/trojan.txt)
-- [SSR](https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/sub/splitted/ssr.txt)
-- [SHADOWSOCKS](https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/sub/splitted/ss.txt)
+- [VMESS](https://raw.githubusercontent.com/OscarBal2468/V2RayAggregator/master/sub/splitted/vmess.txt)
+- [TROJAN](https://raw.githubusercontent.com/OscarBal2468/V2RayAggregator/master/sub/splitted/trojan.txt)
+- [SSR](https://raw.githubusercontent.com/OscarBal2468/V2RayAggregator/master/sub/splitted/ssr.txt)
+- [SHADOWSOCKS](https://raw.githubusercontent.com/OscarBal2468/V2RayAggregator/master/sub/splitted/ss.txt)
 
 #### provider config for clash 🐈‍⬛
 > Configs with the "others" tag will proxy domestic services.
 
-- [Clash Meta For Iran](https://cdn.jsdelivr.net/gh/mahdibland/V2RayAggregator@master/update/provider/provider-meta.yml) (Recommended)
-- [Clash Meta For China](https://cdn.jsdelivr.net/gh/mahdibland/V2RayAggregator@master/update/provider/provider-meta-cn.yml) (Recommended)
-- [Clash Meta For Others](https://cdn.jsdelivr.net/gh/mahdibland/V2RayAggregator@master/update/provider/provider-meta-others.yml) (Recommended)
+- [Clash Meta For Iran](https://cdn.jsdelivr.net/gh/OscarBal2468/V2RayAggregator@master/update/provider/provider-meta.yml) (Recommended)
+- [Clash Meta For China](https://cdn.jsdelivr.net/gh/OscarBal2468/V2RayAggregator@master/update/provider/provider-meta-cn.yml) (Recommended)
+- [Clash Meta For Others](https://cdn.jsdelivr.net/gh/OscarBal2468/V2RayAggregator@master/update/provider/provider-meta-others.yml) (Recommended)
 
-- [Clash For Iran](https://cdn.jsdelivr.net/gh/mahdibland/V2RayAggregator@master/update/provider/provider.yml)
-- [Clash For China](https://cdn.jsdelivr.net/gh/mahdibland/V2RayAggregator@master/update/provider/provider-cn.yml)
-- [Clash For Others](https://cdn.jsdelivr.net/gh/mahdibland/V2RayAggregator@master/update/provider/provider-others.yml)
+- [Clash For Iran](https://cdn.jsdelivr.net/gh/OscarBal2468/V2RayAggregator@master/update/provider/provider.yml)
+- [Clash For China](https://cdn.jsdelivr.net/gh/OscarBal2468/V2RayAggregator@master/update/provider/provider-cn.yml)
+- [Clash For Others](https://cdn.jsdelivr.net/gh/OscarBal2468/V2RayAggregator@master/update/provider/provider-others.yml)
 
 
 ### node sources
 - [pojiezhiyuanjun/freev2](https://github.com/pojiezhiyuanjun/freev2), number of nodes: `81`
-- [mahdibland/ShadowsocksAggregator](https://github.com/mahdibland/ShadowsocksAggregator), number of nodes: `200`
+- [OscarBal2468/V2RayAggregator](https://github.com/OscarBal2468/V2RayAggregator), number of nodes: `200`
 - [iwxf/free-v2ray](https://github.com/iwxf/free-v2ray), number of nodes: `39`
 - [DoveBoy/Vmess-Actions](https://github.com/ldir92664/Vmess-Actions), number of nodes: `105`
 - [gooooooooooooogle/Clash-Config](https://github.com/gooooooooooooogle/Clash-Config), number of nodes: `1`
