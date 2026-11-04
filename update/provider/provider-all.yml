@@ -1,34 +1,43 @@
 proxies:
   - {name: 🇺🇸 US-193.151.163.18-0081, server: 193.151.163.18, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
   - {name: 🇺🇸 US-37.19.198.160-0134, server: 37.19.198.160, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: 🇺🇸 US-37.19.198.244-0137, server: 37.19.198.244, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
   - {name: 🇺🇸 US-37.19.198.243-0142, server: 37.19.198.243, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: 🇺🇸 US-37.19.198.236-0140, server: 37.19.198.236, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: 🇺🇸 US-216.152.155.23-0096, server: 216.152.155.23, port: 443, type: trojan, password: 0ab6c98dae3b48e8b9c4a776b6c9c19a, sni: courses.nextjobopportunityandclaimyouridealrole.com, skip-cert-verify: false}
+  - {name: 🇺🇸 US-37.19.198.244-0137, server: 37.19.198.244, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
   - {name: 🇺🇸 US-216.152.155.54-0138, server: 216.152.155.54, port: 443, type: trojan, password: 0ab6c98dae3b48e8b9c4a776b6c9c19a, sni: learn.nextjobopportunityandclaimyouridealrole.com, skip-cert-verify: false}
-  - {name: 🇺🇸 US-216.152.155.158-0121, server: 216.152.155.158, port: 443, type: trojan, password: 0ab6c98dae3b48e8b9c4a776b6c9c19a, sni: resources.nextjobopportunityandclaimyouridealrole.com, skip-cert-verify: false}
-  - {name: 🇺🇸 US-198.98.53.130-0229, server: 198.98.53.130, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: eDfN7SODQceIOmIAbtJJtK}
-  - {name: 🇺🇸 US-216.152.155.176-0107, server: 216.152.155.176, port: 443, type: trojan, password: 0ab6c98dae3b48e8b9c4a776b6c9c19a, sni: blog.nextjobopportunityandclaimyouridealrole.com, skip-cert-verify: false}
-  - {name: 🇺🇸 US-193.151.160.18-0086, server: 193.151.160.18, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
-  - {name: 🇺🇸 US-193.151.160.9-0080, server: 193.151.160.9, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
+  - {name: 🇺🇸 US-37.19.198.236-0140, server: 37.19.198.236, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
   - {name: 🇺🇸 US-45.86.51.18-0079, server: 45.86.51.18, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
-  - {name: 🇺🇸 US-169.197.140.218-0084, server: 169.197.140.218, port: 443, type: trojan, password: 0ab6c98dae3b48e8b9c4a776b6c9c19a, sni: learn.discoverfreshgraduatejobsstartyourprofessionaljourney.com, skip-cert-verify: false}
-  - {name: 🇺🇸 US-66.163.122.7-0161, server: 66.163.122.7, port: 443, type: trojan, password: 0ab6c98dae3b48e8b9c4a776b6c9c19a, sni: www.searchnationwidecareerchangehelperandguidancetoday.com, skip-cert-verify: false}
+  - {name: 🇺🇸 US-216.152.155.176-0107, server: 216.152.155.176, port: 443, type: trojan, password: 0ab6c98dae3b48e8b9c4a776b6c9c19a, sni: blog.nextjobopportunityandclaimyouridealrole.com, skip-cert-verify: false}
   - {name: 🇺🇸 US-185.230.230.18-0091, server: 185.230.230.18, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
-  - {name: 🇺🇸 US-66.163.122.26-0160, server: 66.163.122.26, port: 443, type: trojan, password: 0ab6c98dae3b48e8b9c4a776b6c9c19a, sni: blog.searchnationwidecareerchangehelperandguidancetoday.com, skip-cert-verify: false}
+  - {name: 🇺🇸 US-138.197.89.234-0144, server: 138.197.89.234, port: 28960, type: ss, cipher: chacha20-ietf-poly1305, password: DZRy4Q3QH0jUGfKFl2jDCZ}
   - {name: 🇺🇸 US-156.146.38.170-0168, server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇺🇸 US-156.146.38.169-0147, server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
   - {name: 🇺🇸 US-156.146.38.168-0206, server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
   - {name: 🇺🇸 US-156.146.38.167-0207, server: 156.146.38.167, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇺🇸 US-95.215.201.18-0151, server: 95.215.201.18, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
+  - {name: 🇺🇸 US-216.152.156.81-0133, server: 216.152.156.81, port: 443, type: trojan, password: 0ab6c98dae3b48e8b9c4a776b6c9c19a, sni: www.healthcarejobshubenhancemedicalprofessionalskillstoday.com, skip-cert-verify: false}
+  - {name: 🇺🇸 US-170.101.101.19-0085, server: 170.101.101.19, port: 443, type: trojan, password: 0ab6c98dae3b48e8b9c4a776b6c9c19a, sni: learn.explorecreativejobsandenhanceyourcareerportfolio.com, skip-cert-verify: false}
+  - {name: 🇺🇸 US-172.86.108.79-1832, server: 172.86.108.79, port: 42906, type: vmess, uuid: 9bcfd3b5-5f71-4938-b1d2-f8fdd895095d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: www.bing.com}}}
+  - {name: 🇺🇸 US-216.152.156.42-0101, server: 216.152.156.42, port: 443, type: trojan, password: 0ab6c98dae3b48e8b9c4a776b6c9c19a, sni: blog.healthcarejobshubenhancemedicalprofessionalskillstoday.com, skip-cert-verify: false}
+  - {name: 🇺🇸 US-66.163.114.114-0153, server: 66.163.114.114, port: 443, type: trojan, password: 0ab6c98dae3b48e8b9c4a776b6c9c19a, sni: learn.findconnectwithemployersandbuildprofessionalnetwork.com, skip-cert-verify: false}
   - {name: 🇯🇵 JP-149.22.87.240-0165, server: 149.22.87.240, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: 🇯🇵 JP-149.22.87.241-0163, server: 149.22.87.241, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
   - {name: 🇯🇵 JP-149.22.87.204-0166, server: 149.22.87.204, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: 🇯🇵 JP-154.36.158.197-0232, server: 154.36.158.197, port: 8388, type: ss, cipher: aes-256-gcm, password: BeaUf9c0AEWH40Pu}
-  - {name: 🇯🇵 JP-84.247.155.196-0217, server: 84.247.155.196, port: 80, type: ss, cipher: aes-256-gcm, password: 3eOFeNssde7PYYMv}
-  - {name: 🇯🇵 JP-84.247.155.196-0225, server: 84.247.155.196, port: 443, type: ss, cipher: aes-256-gcm, password: 3eOFeNssde7PYYMv}
-  - {name: 🇸🇬 SG-68.183.227.4-0182, server: 68.183.227.4, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6}
+  - {name: 🇯🇵 JP-149.22.87.241-0163, server: 149.22.87.241, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
   - {name: 🇸🇬 SG-149.28.130.108-0158, server: 149.28.130.108, port: 443, type: trojan, password: 0ab6c98dae3b48e8b9c4a776b6c9c19a, sni: searchcreativejobsandshowcaseyourartistictalents.com, skip-cert-verify: false}
-  - {name: 🇸🇬 SG-8.222.176.249-5469, server: wjofHsQtEuEywxEq.v.3dns.vip, port: 443, type: vmess, uuid: a9f4de8b-68f1-44b6-b6a2-1db60940503a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: wjofHsQtEuEywxEq.v.3dns.vip, network: ws, ws-opts: {path: /, headers: {Host: wjofHsQtEuEywxEq.v.3dns.vip}}}
-  - {name: 🇰🇷 KR-218.237.185.234-0230, server: p141.panda001.net, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: 🇰🇷 KR-141.164.45.187-0464, server: 141.164.45.187, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 🇰🇷 KR-141.164.45.187-5381, server: 141.164.45.187, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇸🇬 SG-68.183.227.4-0182, server: 68.183.227.4, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6}
+  - {name: 🇰🇷 KR-141.164.45.187-0209, server: 141.164.45.187, port: 9090, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇰🇷 KR-132.145.80.230-1123, server: 132.145.80.230, port: 80, type: vmess, uuid: 5155860e-d07d-46c3-9128-3afbd84626c7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: kr02.a0a.xyz}}}
   - {name: 🇰🇷 KR-211.178.105.134-0226, server: 211.178.105.134, port: 6123, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: 🇰🇷 KR-218.237.185.234-0230, server: p141.panda001.net, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: 🇺🇸 US-193.151.160.9-0080, server: 193.151.160.9, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
+  - {name: 🇺🇸 US-193.151.160.18-0086, server: 193.151.160.18, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
+  - {name: 🇺🇸 US-169.197.140.218-0084, server: 169.197.140.218, port: 443, type: trojan, password: 0ab6c98dae3b48e8b9c4a776b6c9c19a, sni: learn.discoverfreshgraduatejobsstartyourprofessionaljourney.com, skip-cert-verify: false}
+  - {name: 🇺🇸 US-66.163.112.121-0196, server: 66.163.112.121, port: 443, type: trojan, password: 0ab6c98dae3b48e8b9c4a776b6c9c19a, sni: www.unlockyourfuturefindyourperfectcareer.com, skip-cert-verify: false}
+  - {name: 🇺🇸 US-66.163.112.13-0178, server: 66.163.112.13, port: 443, type: trojan, password: 0ab6c98dae3b48e8b9c4a776b6c9c19a, sni: blog.unlockyourfuturefindyourperfectcareer.com, skip-cert-verify: false}
+  - {name: 🇺🇸 US-216.152.156.65-0098, server: 216.152.156.65, port: 443, type: trojan, password: 0ab6c98dae3b48e8b9c4a776b6c9c19a, sni: learn.healthcarejobshubenhancemedicalprofessionalskillstoday.com, skip-cert-verify: false}
+  - {name: 🇺🇸 US-216.105.168.18-5849, server: 216.105.168.18, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hCCWOcIsK5wrFz4OX70rWf}
+  - {name: 🇺🇸 US-173.244.56.6-0078, server: 173.244.56.6, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇺🇸 US-173.244.56.9-0077, server: 173.244.56.9, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇺🇸 US-216.106.186.32-0150, server: blog.findlocaljobnetworkandbuildcommunityconnections.com, port: 443, type: trojan, password: dba20dcb635e430fa4d3bfc303a149d2, sni: blog.findlocaljobnetworkandbuildcommunityconnections.com, skip-cert-verify: false}
+  - {name: 🇺🇸 US-15.204.247.206-5846, server: 15.204.247.206, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇺🇸 US-216.152.155.158-0121, server: 216.152.155.158, port: 443, type: trojan, password: 0ab6c98dae3b48e8b9c4a776b6c9c19a, sni: resources.nextjobopportunityandclaimyouridealrole.com, skip-cert-verify: false}
+  - {name: 🇺🇸 US-170.101.101.67-0128, server: 170.101.101.67, port: 443, type: trojan, password: 0ab6c98dae3b48e8b9c4a776b6c9c19a, sni: courses.explorecreativejobsandenhanceyourcareerportfolio.com, skip-cert-verify: false}
