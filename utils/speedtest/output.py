@@ -92,13 +92,27 @@ def _speed_of(x):
 
 def select_by_country(nodes):
     alive = [x for x in nodes if _ping_of(x) > 0 and _speed_of(x) > 0]
+    tagged = [(detect_country(x), x) for x in alive]
     selected = []
     for cc in TARGET_COUNTRIES:
-        group = [x for x in alive if detect_country(x) == cc]
+        group = [x for c, x in tagged if c == cc]
         group.sort(key=lambda x: (_ping_of(x), -_speed_of(x)))
         print('Country %s: %d alive, taking %d' % (
             cc, group.__len__(), min(PER_COUNTRY, group.__len__())))
         selected.extend(group[:PER_COUNTRY])
+    # Top-up rule (Oscar, 2026-11-04): if the total falls short of the
+    # combined quota, fill from the remaining alive nodes of the other
+    # target countries, lowest ping first.
+    quota = PER_COUNTRY * len(TARGET_COUNTRIES)
+    if len(selected) < quota:
+        chosen = set(id(x) for x in selected)
+        rest = [x for c, x in tagged
+                if c in TARGET_COUNTRIES and id(x) not in chosen]
+        rest.sort(key=lambda x: (_ping_of(x), -_speed_of(x)))
+        add = rest[:quota - len(selected)]
+        print('Fill: topping up %d nodes from other target countries'
+              % len(add))
+        selected.extend(add)
     return [x['link'] for x in selected]
 
 
